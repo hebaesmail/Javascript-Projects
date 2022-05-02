@@ -1,13 +1,19 @@
-var A = "This is a string"; 
-document.write(A);
+var A = "This is a string."; 
+document.write(A)
 
 var B = "Good Mornin'!"; //pop-up alert box
 window.alert(B);
 
-document.write("\"Smile and Enjoy the world around you," + " because life is short and these little moments will be forever gone.\"" + "-Unknown");
+var Z = (`\"Quote`); 
+document.write(Z);
 
-var C = "Concatenated" + " String"
-document.write(C), fontcolor(green);
+div = document.getElementById("container");
+div.fontcolor("red");
+
+var C = "This is another string.";
+document.write(C);
+
+document.write("concatenate + var A + var C");
 
 var Family = "The Smiths", Dad = "Mark", Mom = "Sally", Daughter = "Nina", Son = "Derek"; //Group Variable
 document.write(Son);
