@@ -23,7 +23,7 @@ function myFunction() {
 function count_function() {
     document.getElementById("nested_function") .innerHTML = Count();
     function Count() {
-        var Starting_point = 9;
+        var Starting_point = 4;
         function Plus_one() (Starting_point += 1;)
         Plus_one();
         return Starting_point;
