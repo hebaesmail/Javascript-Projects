@@ -18,7 +18,7 @@ function string_Method() {
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
-function precision_Method () {
-    var x = 12938.573948373;
+function precision_Method() {
+    var X = 12938.573948373;
     document.getElementById("Precision").innerHTML = X.toPrecision(10);
 }
