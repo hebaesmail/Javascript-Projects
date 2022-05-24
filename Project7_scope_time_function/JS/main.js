@@ -36,7 +36,7 @@ function Error_Function() {
     document.getElementById("Error") .innerHTML = "52 / 6 = " + simpleMath;
 }
 
+let Day = "Today is a beautiful Day";
 function Global_Function() {
-    let Day = "Today is a beautiful Day";
     document.getElementById("Day").innerHTML = Day;
 }
