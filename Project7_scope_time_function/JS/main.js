@@ -32,11 +32,11 @@ function Time_Function() {
 
 console.log(Error_Function());
 function Error_Function() {
-    document.getElementById("Error") .innerHTML = Count();
-    function Count() {
-        var Starting_point = 4;
-        function Plus_one() (Starting_ponit += 1;)
-        Plus_one();
-        return Starting_point;
-    }
+    var simple_Math = 52/6;
+    document.getElementById("Error") .innerHTML = "52 / 6 = " + simpleMath;
+}
+
+function Global_Function() {
+    let Day = "Today is a beautiful Day";
+    document.getElementById("Day").innerHTML = Day;
 }
