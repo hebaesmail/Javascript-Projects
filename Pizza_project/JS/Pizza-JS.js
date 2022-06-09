@@ -4,8 +4,10 @@ function getReceipt() {
     var sizeTotal = 0;
     var sizeArray = document.getElementsByClassName("size");
     for (var i = 0; i < sizeArray.length; i++) {
-        var selectedSize = sizeArray[i].value;
-        text1 = text1+selectedSize+"<br>";
+        if (sizeArray[i].checked) {
+            var selectedSize = sizeArray[i].value;
+            text1 = text1+selectedSize+"<br>";
+        }
     }
     if (selectedSize === "Personal Pizza") {
         sizeTotal = 6;
